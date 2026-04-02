@@ -18,3 +18,14 @@ Instead of calculating gravity between every individual pair of particles (O(N^2
 - Requires **Raylib** and a **C++17** compatible compiler.
 - Run `make main` to compile the simulation.
 - Run `./main` to start.
+
+## Demo
+_My laptop is Thinkpad X1 Gen 9 with no GPU, so the performance is limited by CPU._
+![1500 particles demo](/assets/demo_1500.gif)
+![2000 particles demo](/assets/demo_2000.gif)
+These simulation achieve around 10+ FPS
+
+![5000 particles demo](/assets/demo_5000.gif)
+This simulation achieves around 5+ FPS, which is quite good considering the computational load of simulating 5000 particles with the Barnes-Hut algorithm on a CPU without GPU acceleration.
+
+

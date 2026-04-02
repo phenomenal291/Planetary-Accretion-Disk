@@ -156,7 +156,7 @@ void simulation3D() {
 
     const int screenWidth = 1920;
     const int screenHeight = 1080;
-    const int numDust = 1500; 
+    const int numDust = 5000; 
     Camera3D camera = { 0 };
     camera.position = { 0.0f, 1500.0f, 1500.0f }; // Placed high up and pulled back
     camera.target = { screenWidth / 2.0f, screenHeight / 2.0f, 0.0f };         // Looking at the Sun
