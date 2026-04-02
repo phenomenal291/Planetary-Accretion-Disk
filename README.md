@@ -21,11 +21,15 @@ Instead of calculating gravity between every individual pair of particles (O(N^2
 
 ## Demo
 _My laptop is Thinkpad X1 Gen 9 with no GPU, so the performance is limited by CPU._
-![1500 particles demo](/assets/demo_1500.gif)
-![2000 particles demo](/assets/demo_2000.gif)
+
+![1500 particles demo](./assets/demo_1500.png)
+_1500 particles simulation_
+![2000 particles demo](./assets/demo_2000.png)
+_2000 particels simulation_
 These simulation achieve around 10+ FPS
 
-![5000 particles demo](/assets/demo_5000.gif)
+![5000 particles demo](./assets/demo_5000.png)
 This simulation achieves around 5+ FPS, which is quite good considering the computational load of simulating 5000 particles with the Barnes-Hut algorithm on a CPU without GPU acceleration.
 
+I don't know if the results are good or not, but I think it's pretty good for a CPU-based simulation. Right now, it just runable on my laptop, and I haven't tested it on other machines. 
 
